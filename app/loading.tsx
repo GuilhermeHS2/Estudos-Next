@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
+
 
 export default function Loading() {
     const arr = Array.from({ length: 20 });

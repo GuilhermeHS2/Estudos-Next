@@ -90,7 +90,11 @@ export default async function CountryPage({
             </h2>
         )}
         <h2 className="text-xl text-gray-800 mt-3">
-            <b>🚩Google Maps: </b> <a target="_blank" href={country.maps.googleMaps}>Ver no Google Maps</a> 
+            <b>🚩Google Maps: </b> 
+            <a 
+            target="_blank" 
+            href={country.maps.googleMaps} className="text-blue-500 flex items-center">
+                Ver no Google Maps</a> 
         </h2>
         </section>
         <div className="relative h-48 my-2 md:h-auto w-96 shadow-md md:order-last order-first">
