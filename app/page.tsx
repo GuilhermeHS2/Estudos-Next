@@ -23,7 +23,9 @@ export type Country = {
     svg: string;
     alt: string;
   };
-
+  maps: {
+    googleMaps: string;
+  };
   borders?: string[];
   cca3: string;	
 };
@@ -44,6 +46,9 @@ export default async function Home() {
       ptName={country.translations.por.common}
       flag={country.flags.svg}
       flagAlt={country.flags.alt}
+      maps={country.maps.googleMaps}
+
+      
       />
     ))}
   </section>

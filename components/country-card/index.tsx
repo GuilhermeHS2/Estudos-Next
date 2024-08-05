@@ -6,11 +6,13 @@ name,
 ptName,
 flag,
 flagAlt,
+maps,
 }: {
 name: string;
 ptName: string;
 flag: string;
 flagAlt: string;
+maps: string;
 }) {
 return (
     <Link href={`/pais/${name}`}>
